@@ -1,0 +1,115 @@
+*{
+   margin: 0;
+   padding: 0;   
+}
+
+main{
+    height: 40vh;
+}
+
+.cabeçalho{
+    display: flex;
+    background-color: rgba(40, 110, 159, 0.719);
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+body{
+    background-color: rgb(236, 235, 227);    
+    }
+
+h1{
+  font-size: 50px;  
+  color: white;
+  font-family: "Krub", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h3{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button{
+    font-size: 25px;
+    width: 200px;
+    height: 70px;
+    background-color: rgba(40, 110, 159, 0.719);
+    font-family: "Krub", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    border-radius: 10px;
+    border: 0;
+}
+
+.botoes{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.botões1{
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.botões2{
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.botões3{
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.botões4{
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+a{   
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.botões1:hover{
+    transform: scale(1.05);
+}
+.botões2:hover{
+    transform: scale(1.05);
+}
+.botões3:hover{
+    transform: scale(1.05);
+}
+.botões4:hover{
+    transform: scale(1.05);
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Krub", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    gap: 25px;
+}
+
+footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    height: 90px;
+    align-items: center;justify-content: center;
+}
